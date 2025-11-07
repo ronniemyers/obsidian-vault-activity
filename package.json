@@ -1,6 +1,6 @@
 {
   "name": "obsidian-vault-activity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Obsidian plugin to track note access to reveal active and inactive vault areas.",
   "keywords": [
     "obsidian",

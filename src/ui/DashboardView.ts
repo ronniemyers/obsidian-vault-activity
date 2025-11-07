@@ -24,11 +24,11 @@ export class ActivityDashboardView extends ItemView {
 		return 'bar-chart-2';
 	}
 
-	async onOpen() {
+	async onOpen(): Promise<void> {
 		this.renderDashboard();
 	}
 
-	async onClose() {
+	async onClose(): Promise<void> {
 	}
 
 	renderDashboard() {
