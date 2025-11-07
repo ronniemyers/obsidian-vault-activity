@@ -1,0 +1,34 @@
+{
+  "name": "obsidian-vault-activity",
+  "version": "1.0.0",
+  "description": "Obsidian plugin to track note access to reveal active and neglected vault areas.",
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "tracking",
+    "analytics",
+    "dashboard"
+  ],
+  "license": "GPL-3.0",
+  "author": "Ronnie Myers",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit && node esbuild.config.mjs production",
+    "bump": "node version-bump.mjs && git add package.json manifest.json versions.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
+    "esbuild": "0.17.3",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-obsidianmd": "^0.1.8",
+    "globals": "^16.4.0",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}
