@@ -1,7 +1,7 @@
 {
 	"id": "vault-activity",
 	"name": "Vault Activity",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "1.4.0",
 	"description": "Tracks note access to reveal active and inactive vault areas.",
 	"author": "Ronnie Myers",
