@@ -110,7 +110,7 @@ export class ActivityTracker {
 		const file = app.vault.getAbstractFileByPath(randomNote.path);
 		if (file instanceof TFile) {
 			await app.workspace.getLeaf().openFile(file);
-			new Notice(`Opened neglected note: ${file.basename}`);
+			new Notice(`Opened inactive note: ${file.basename}`);
 		} else {
 			new Notice('Note no longer exists: ' + randomNote.path);
 		}

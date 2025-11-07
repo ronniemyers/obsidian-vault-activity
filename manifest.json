@@ -3,7 +3,7 @@
 	"name": "Vault Activity",
 	"version": "1.0.0",
 	"minAppVersion": "1.4.0",
-	"description": "Tracks note access to reveal active and neglected vault areas",
+	"description": "Tracks note access to reveal active and inactive vault areas",
 	"author": "Ronnie Myers",
 	"fundingUrl": "https://buymeacoffee.com/ronniemyers",
 	"isDesktopOnly": false

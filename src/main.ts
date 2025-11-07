@@ -72,7 +72,7 @@ export default class VaultActivityPlugin extends Plugin {
 
 		this.addCommand({
 			id: 'open-random-neglected',
-			name: 'Open random neglected note',
+			name: 'Open random inactive note',
 			callback: () => void this.tracker.openRandomNeglected(this.app)
 		});
 
