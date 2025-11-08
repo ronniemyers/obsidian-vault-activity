@@ -25,10 +25,12 @@ export class ActivityDashboardView extends ItemView {
 	}
 
 	async onOpen(): Promise<void> {
+		await Promise.resolve();
 		this.renderDashboard();
 	}
 
 	async onClose(): Promise<void> {
+		await Promise.resolve();
 	}
 
 	renderDashboard() {

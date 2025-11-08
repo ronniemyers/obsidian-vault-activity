@@ -7,7 +7,8 @@ import tsPlugin from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 
 export default defineConfig([
-
+	...obsidianmd.configs.recommended,
+	
 	globalIgnores([
 		"node_modules/",
 		"main.js",
@@ -32,7 +33,11 @@ export default defineConfig([
 			"@typescript-eslint": tsPlugin
 		},
 	},
-	...obsidianmd.configs.recommended,
+	{
+		rules: {
+			"@typescript-eslint/require-await": "error"
+		}
+	},
 	prettierConfig
 
 ]);
